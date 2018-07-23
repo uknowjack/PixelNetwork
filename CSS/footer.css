@@ -1,0 +1,123 @@
+footer {
+    background-color: White;
+    color: Black;
+    padding: 2%;
+    display: grid;
+    grid-template-areas:
+        "bottomNavBox"
+        "copyright";
+}
+
+#bottomNavBox {
+    grid-area: bottomNavBox;
+    display: grid;
+    grid-template-areas:
+        "AboutButton SettingsButton"
+        "FAQButton ContactButton";
+    border-bottom: 2px solid lightgray;
+}
+
+.navButton {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#AboutButton {
+    grid-area: AboutButton;
+}
+
+#FAQButton {
+    grid-area: FAQButton;
+}
+
+#SettingsButton {
+    grid-area: SettingsButton;
+}
+
+#ContactButton {
+    grid-area: ContactButton;
+}
+
+#informationDiv {
+/*    background-color: lightgray;*/
+    display: none;
+    border-bottom: 2px solid lightgray;
+    padding: 5px;
+}
+
+#aboutDiv {
+    display: none;
+}
+
+#FAQDiv {
+    display: none;
+}
+
+#settingsDiv {
+    display: none;
+}
+
+.questionDiv {
+    display: inline-block;
+}
+
+.questionTextDiv {
+    display: inline-block;
+}
+
+.answerDiv {
+    padding-left: 70px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    display: none;
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+}
+
+.switchOption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    max-width: 150px;
+}
+
+.switchToggle {
+    display: flex;
+    width: 70px;
+    height: 43px;
+    border: 3px solid #444;
+    border-radius: 13px;
+    background-color: green;
+}
+
+.slide {
+    border: 3px solid #444;
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+    padding: 1px;
+    display: flex;
+    font-size: 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contactUsDiv {
+    display: none;
+}
+
+#copyright {
+    padding: 2%;
+}

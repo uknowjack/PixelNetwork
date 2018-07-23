@@ -1,0 +1,41 @@
+html {
+  font-family: sans-serif;
+  background-color: black;
+  color: yellow;
+  width: 100%;
+}
+
+body {
+  background-color: coral;
+  color: saddlebrown;
+  width: 100%;
+}
+
+.container {
+  background-color: lightblue;
+  color: saddlebrown;
+  width: 100%;
+}
+
+main {
+  background-color: lightgray;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#inputDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#inputCreater {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

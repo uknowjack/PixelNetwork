@@ -1,0 +1,50 @@
+.input {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid darkgreen;
+  botoo
+}
+
+#inputCreater {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 20px 20px;
+  grid-template-rows: 20px 20px;
+  grid-template-areas:
+      "topLeft topRight"
+      "bottomLeft bottomRight";
+}
+
+#topLeftInput {
+  grid-area: topLeft;
+}
+
+#topRightInput {
+  grid-area: topRight;
+}
+
+#bottomLeftInput {
+  grid-area: bottomLeft;
+}
+
+#bottomRightInput {
+  grid-area: bottomRight;
+}
+
+#process {
+  width: 100px;
+  height: 25px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+}
+
+#title {
+  font-weight: bold;
+}
